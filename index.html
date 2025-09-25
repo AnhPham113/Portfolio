@@ -38,6 +38,12 @@
 
         <!-- responsive -->
         <link rel="stylesheet" href="./css/responsive.css" />
+
+        <!-- animation -->
+        <link
+            href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+            rel="stylesheet"
+        />
     </head>
     <body>
         <!-- header -->
@@ -96,7 +102,12 @@
             <section class="hero">
                 <div class="container">
                     <!-- hero-content -->
-                    <div class="hero__content">
+                    <div
+                        class="hero__content"
+                        data-aos="fade"
+                        data-aos-duration="1000"
+                        data-aos-delay="500"
+                    >
                         <div class="work-status label-2">
                             Available for work
                         </div>
@@ -116,7 +127,11 @@
                     </div>
 
                     <!-- hero-media -->
-                    <section class="hero-media">
+                    <section
+                        class="hero-media"
+                        data-aos="fade"
+                        data-aos-duration="1000"
+                    >
                         <h1 class="heading-1">Anh Pham</h1>
                     </section>
                 </div>
@@ -482,29 +497,17 @@
                         <h2 class="heading-6">a bit about me</h2>
                         <div class="about-column">
                             <p class="about-column__desc body-3">
-                                I’m Trung Anh. I graduated with a degree in
-                                Biotechnology from the University of Science,
-                                but soon realized that the field didn’t quite
-                                fit me. That realization pushed me to explore
-                                different paths, hoping to find something more
-                                aligned with who I am.
+                                Hi, I’m Trung Anh, a designer with roots in
+                                science and years of experience in education. My
+                                journey taught me how to adapt, analyze, and
+                                communicate clearly—skills I now bring into
+                                UI/UX design.
                             </p>
                             <p class="about-column__desc body-3">
-                                I’ve worked as an English teaching assistant, an
-                                academic officer, and eventually, a math
-                                teacher. While working in education, I came
-                                across design tools to support my tasks—and
-                                that’s how I first discovered UI/UX. I was
-                                curious, so I decided to enroll in a design
-                                course to dive deeper.
-                            </p>
-                            <p class="about-column__desc body-3">
-                                After completing two real-world projects, I
-                                found what I had been searching for. UI/UX
-                                design brings together creativity, logic, and
-                                structure in a way that just clicks with me.
-                                Since then, I’ve been committed to growing in
-                                this field seriously and sustainably.
+                                I enjoy exploring simple solutions to complex
+                                challenges. At this stage, my focus is on
+                                learning continuously and advancing my expertise
+                                in UI/UX.
                             </p>
                         </div>
                     </section>
@@ -1078,14 +1081,22 @@
                         <span class="highlight-info__subtile label-2">
                             Social
                         </span>
-                        <a href="#!" class="footer-link">
+                        <a
+                            href="https://www.linkedin.com/in/anhpham113/"
+                            class="footer-link"
+                            target="_blank"
+                        >
                             <p
                                 class="highlight-info__desc body-3 footer-link__desc"
                             >
                                 Linkedin
                             </p>
                         </a>
-                        <a href="#!" class="footer-link">
+                        <a
+                            href="https://github.com/AnhPham113"
+                            class="footer-link"
+                            target="_blank"
+                        >
                             <p
                                 class="highlight-info__desc body-3 footer-link__desc"
                             >
@@ -1161,7 +1172,13 @@
             back to top
         </a>
 
-        <!-- import JS -->
+        <!-- common JS -->
         <script src="./common.js"></script>
+
+        <!-- animation js -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
     </body>
 </html>
