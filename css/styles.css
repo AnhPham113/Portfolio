@@ -296,7 +296,7 @@ ol.nav-bar__list .nav-bar__item.active::before {
 
 .hero__content {
     margin-left: auto;
-    max-width: 460px;
+    max-width: 500px;
 }
 
 .hero__desc {
@@ -304,7 +304,7 @@ ol.nav-bar__list .nav-bar__item.active::before {
 }
 
 .hero-media {
-    margin-top: 20px;
+    margin-top: 36px;
 }
 
 /* project list */
