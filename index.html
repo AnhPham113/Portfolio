@@ -47,7 +47,7 @@
     </head>
     <body>
         <!-- header -->
-        <header>
+        <header class="desktop-tablet-only">
             <div class="container-sm">
                 <div class="header__inner">
                     <!-- logo -->
@@ -101,42 +101,82 @@
             <!-- hero -->
             <section class="hero">
                 <div class="container-sm">
-                    <!-- hero-content -->
-                    <div
-                        class="hero__content"
-                        data-aos="fade"
-                        data-aos-duration="1000"
-                        data-aos-delay="800"
-                    >
-                        <div class="work-status label-2">
-                            Available for work
-                        </div>
-                        <p class="hero__desc body-3">
-                            Hi, I’m a UX/UI Designer passionate about
-                            observing daily experiences and uncovering
-                            opportunities for better design. What excites me
-                            most is the process of finding simple, optimal
-                            solutions to challenging problems — and even
-                            resolving the smallest issues, because seeing
-                            people’s satisfaction brings me genuine joy.
-                        </p>
-                        <a
-                            href="mailto:trunganhkhtn@gmail.com"
-                            class="btn hero-btn"
+                    <div class="hero__inner">
+                        <!-- hero-content -->
+                        <div
+                            class="hero__content"
+                            data-aos="fade"
+                            data-aos-duration="1000"
+                            data-aos-delay="800"
                         >
-                            send email
-                        </a>
-                    </div>
+                            <div class="work-status label-2">
+                                Available for work
+                            </div>
+                            <p class="hero__desc body-3">
+                                Hi, I’m a UX/UI Designer passionate about
+                                observing daily experiences and uncovering
+                                opportunities for better design. What excites me
+                                most is the process of finding simple, optimal
+                                solutions to challenging problems — and even
+                                resolving the smallest issues, because seeing
+                                people’s satisfaction brings me genuine joy.
+                            </p>
+                            <a
+                                href="mailto:trunganhkhtn@gmail.com"
+                                class="btn hero-btn"
+                            >
+                                send email
+                            </a>
+                        </div>
 
-                    <!-- hero-media -->
-                    <section
-                        class="hero-media"
-                        data-aos="fade"
-                        data-aos-duration="1000"
-                        data-aos-delay="300"
-                    >
-                        <h1 class="heading-1">Anh Pham</h1>
-                    </section>
+                        <!-- hero-media -->
+                        <section
+                            class="hero-media"
+                            data-aos="fade"
+                            data-aos-duration="1000"
+                            data-aos-delay="300"
+                        >
+                            <h1 class="heading-1">Anh Pham</h1>
+                            <!-- navbar -->
+                            <nav class="nav-bar mobile-only">
+                                <ul class="nav-bar__list">
+                                    <li class="nav-bar__item">
+                                        <a
+                                            href="#project-list"
+                                            class="nav-bar__link label-2"
+                                        >
+                                            projects
+                                        </a>
+                                    </li>
+                                    <li class="nav-bar__item">
+                                        <a
+                                            href="#about"
+                                            class="nav-bar__link label-2"
+                                        >
+                                            about
+                                        </a>
+                                    </li>
+                                    <li class="nav-bar__item">
+                                        <a
+                                            href="#contact"
+                                            class="nav-bar__link label-2"
+                                        >
+                                            contact
+                                        </a>
+                                    </li>
+                                    <li class="nav-bar__item">
+                                        <a
+                                            href="./assets/cv/CV.pdf"
+                                            class="nav-bar__link label-2"
+                                            target="_blank"
+                                        >
+                                            my cv
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </section>
+                    </div>
                 </div>
             </section>
 
@@ -198,10 +238,10 @@
                                         UX/UI Designer
                                     </p>
                                 </div>
-                                <!-- button -->
+                                <!-- desktop-only-button -->
                                 <a
                                     href="./kiddiMath_app.html"
-                                    class="btn project-btn"
+                                    class="btn project-btn desktop-only"
                                 >
                                     view project
                                 </a>
@@ -251,6 +291,14 @@
                                 </figcaption>
                             </figure>
                         </div>
+
+                        <!-- tablet-mobile-only-button -->
+                        <a
+                            href="./kiddiMath_app.html"
+                            class="btn project-btn tablet-mobile-only"
+                        >
+                            view project
+                        </a>
                     </section>
                     <!-- project-2 -->
                     <section class="project">
@@ -305,10 +353,10 @@
                                         UI Designer
                                     </p>
                                 </div>
-                                <!-- button -->
+                                <!-- desktop-only-button -->
                                 <a
                                     href="./kiddimath_website.html"
-                                    class="btn project-btn"
+                                    class="btn project-btn desktop-only"
                                 >
                                     view project
                                 </a>
@@ -388,6 +436,14 @@
                                 </figcaption>
                             </figure>
                         </div>
+
+                        <!-- tablet-mobile-only-button -->
+                        <a
+                            href="./kiddimath_website.html"
+                            class="btn project-btn tablet-mobile-only"
+                        >
+                            view project
+                        </a>
                     </section>
                     <!-- project-3 -->
                     <section class="project">
@@ -443,10 +499,10 @@
                                         UI Designer
                                     </p>
                                 </div>
-                                <!-- button -->
+                                <!-- desktop-only-button -->
                                 <a
                                     href="./on-the-mic_app.html"
-                                    class="btn project-btn"
+                                    class="btn project-btn desktop-only"
                                 >
                                     view project
                                 </a>
@@ -497,6 +553,14 @@
                                 </figcaption>
                             </figure>
                         </div>
+
+                        <!-- tablet-mobile-only-button -->
+                        <a
+                            href="./on-the-mic_app.html"
+                            class="btn project-btn tablet-mobile-only"
+                        >
+                            view project
+                        </a>
                     </section>
                 </div>
             </section>
@@ -699,8 +763,8 @@
             <!-- exploration -->
             <section class="exploration">
                 <div class="container-sm">
-                    <!--row-1-->
-                    <div class="exploration-row">
+                    <!--desktop-only-row-1-->
+                    <div class="exploration-row desktop-only">
                         <span class="label label-2">web</span>
                         <div class="exploration-media">
                             <!-- thumb-1 -->
@@ -797,8 +861,8 @@
                         </div>
                     </div>
 
-                    <!--row-2-->
-                    <div class="exploration-row">
+                    <!--desktop-only-row-2-->
+                    <div class="exploration-row desktop-only">
                         <span class="label label-2">html/css</span>
                         <div class="exploration-media">
                             <!-- thumb-1 -->
@@ -960,8 +1024,8 @@
                         </div>
                     </div>
 
-                    <!--row-3-->
-                    <div class="exploration-row">
+                    <!--desktop-only-row-3-->
+                    <div class="exploration-row desktop-only">
                         <span class="label label-2">micro-animation</span>
                         <div class="exploration-media">
                             <!-- thumb-1 -->
@@ -1031,8 +1095,432 @@
                         </div>
                     </div>
 
-                    <!--row-4-->
-                    <div class="exploration-row">
+                    <!--desktop-only-row-4-->
+                    <div class="exploration-row desktop-only">
+                        <span class="label label-2">Graphic Work</span>
+                        <div class="exploration-media">
+                            <!-- thumb-1 -->
+                            <div class="exploration-thumb">
+                                <img
+                                    src="./assets/image/homepage/explored-image-16.png"
+                                    alt="explored-image"
+                                    class="exploration-image"
+                                />
+                                <div class="exploration-thumb__tags">
+                                    <span class="exploration-tag label-2">
+                                        poster
+                                    </span>
+                                </div>
+                            </div>
+                            <!-- thumb-2 -->
+                            <div class="exploration-thumb">
+                                <img
+                                    src="./assets/image/homepage/explored-image-17.png"
+                                    alt="explored-image"
+                                    class="exploration-image"
+                                />
+                                <div class="exploration-thumb__tags">
+                                    <span class="exploration-tag label-2">
+                                        poster
+                                    </span>
+                                </div>
+                            </div>
+                            <!-- thumb-3 -->
+                            <div class="exploration-thumb">
+                                <img
+                                    src="./assets/image/homepage/explored-image-18.jpg"
+                                    alt="explored-image"
+                                    class="exploration-image"
+                                />
+                                <div class="exploration-thumb__tags">
+                                    <span class="exploration-tag label-2">
+                                        poster
+                                    </span>
+                                </div>
+                            </div>
+                            <!-- thumb-4 -->
+                            <div class="exploration-thumb">
+                                <img
+                                    src="./assets/image/homepage/explored-image-19.png"
+                                    alt="explored-image"
+                                    class="exploration-image"
+                                />
+                                <div class="exploration-thumb__tags">
+                                    <span class="exploration-tag label-2">
+                                        poster
+                                    </span>
+                                </div>
+                            </div>
+                            <!-- thumb-5 -->
+                            <div class="exploration-thumb">
+                                <img
+                                    src="./assets/image/homepage/explored-image-20.jpg"
+                                    alt="explored-image"
+                                    class="exploration-image"
+                                />
+                                <div class="exploration-thumb__tags">
+                                    <span class="exploration-tag label-2">
+                                        poster
+                                    </span>
+                                </div>
+                            </div>
+                            <!-- thumb-6 -->
+                            <div class="exploration-thumb">
+                                <img
+                                    src="./assets/image/homepage/explored-image-21.png"
+                                    alt="explored-image"
+                                    class="exploration-image"
+                                />
+                                <div class="exploration-thumb__tags">
+                                    <span class="exploration-tag label-2">
+                                        UI MOCKUP
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--tablet-mobile-only-row-1-->
+                    <div class="exploration-row tablet-mobile-only">
+                        <span class="label label-2">web</span>
+                        <div class="exploration-media">
+                            <!-- thumb-1 -->
+                            <div class="exploration-thumb">
+                                <img
+                                    src="./assets/image/homepage/explored-image-01.png"
+                                    alt="explored-image"
+                                    class="exploration-image"
+                                />
+                                <div class="exploration-thumb__tags">
+                                    <span class="exploration-tag label-2">
+                                        hero section
+                                    </span>
+                                </div>
+                            </div>
+                            <!-- thumb-2 -->
+                            <div class="exploration-thumb">
+                                <img
+                                    src="./assets/image/homepage/explored-image-02.png"
+                                    alt="explored-image"
+                                    class="exploration-image"
+                                />
+                                <div class="exploration-thumb__tags">
+                                    <span class="exploration-tag label-2">
+                                        hero section
+                                    </span>
+                                </div>
+                            </div>
+                            <!-- thumb-3 -->
+                            <div class="exploration-thumb">
+                                <img
+                                    src="./assets/image/homepage/explored-image-03.png"
+                                    alt="explored-image"
+                                    class="exploration-image"
+                                />
+                                <div class="exploration-thumb__tags">
+                                    <span class="exploration-tag label-2">
+                                        hero section
+                                    </span>
+                                </div>
+                            </div>
+                            <!-- thumb-4 -->
+                            <div class="exploration-thumb">
+                                <img
+                                    src="./assets/image/homepage/explored-image-04.png"
+                                    alt="explored-image"
+                                    class="exploration-image"
+                                />
+                                <div class="exploration-thumb__tags">
+                                    <span class="exploration-tag label-2">
+                                        hero section
+                                    </span>
+                                </div>
+                            </div>
+                            <!-- thumb-5 -->
+                            <div class="exploration-thumb">
+                                <img
+                                    src="./assets/image/homepage/explored-image-05.png"
+                                    alt="explored-image"
+                                    class="exploration-image"
+                                />
+                                <div class="exploration-thumb__tags">
+                                    <span class="exploration-tag label-2">
+                                        hero section
+                                    </span>
+                                </div>
+                            </div>
+                            <!-- thumb-6 -->
+                            <div class="exploration-thumb">
+                                <img
+                                    src="./assets/image/homepage/explored-image-06.png"
+                                    alt="explored-image"
+                                    class="exploration-image"
+                                />
+                                <div class="exploration-thumb__tags">
+                                    <span class="exploration-tag label-2">
+                                        other section
+                                    </span>
+                                </div>
+                            </div>
+                            <!-- thumb-7 -->
+                            <div class="exploration-thumb">
+                                <img
+                                    src="./assets/image/homepage/explored-image-07.png"
+                                    alt="explored-image"
+                                    class="exploration-image"
+                                />
+                                <div class="exploration-thumb__tags">
+                                    <span class="exploration-tag label-2">
+                                        footer
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--tablet-mobile-only-row-2-->
+                    <div class="exploration-row tablet-mobile-only">
+                        <span class="label label-2">html/css</span>
+                        <div class="exploration-media">
+                            <!-- thumb-1 -->
+                            <div class="exploration-thumb">
+                                <img
+                                    src="./assets/image/homepage/explored-image-08.png"
+                                    alt="explored-image"
+                                    class="exploration-image"
+                                />
+                                <div class="exploration-thumb__info">
+                                    <div class="exploration-thumb__tags">
+                                        <span class="exploration-tag label-2">
+                                            Code Only
+                                        </span>
+                                    </div>
+                                    <a
+                                        href="https://anhpham113.github.io/Project-Bonus-2/"
+                                        class="exploration-thumb__link"
+                                        target="_blank"
+                                    >
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="12"
+                                            height="12"
+                                            viewBox="0 0 12 12"
+                                            fill="none"
+                                            class="exploration-thumb__icon"
+                                        >
+                                            <path
+                                                d="M1 11L11 1M11 1H1M11 1V11"
+                                                stroke="currentcolor"
+                                                stroke-width="2"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                            />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- thumb-2 -->
+                            <div class="exploration-thumb">
+                                <img
+                                    src="./assets/image/homepage/explored-image-09.png"
+                                    alt="explored-image"
+                                    class="exploration-image"
+                                />
+                                <div class="exploration-thumb__info">
+                                    <div class="exploration-thumb__tags">
+                                        <span class="exploration-tag label-2">
+                                            Code Only
+                                        </span>
+                                        <span class="exploration-tag label-2">
+                                            responsive
+                                        </span>
+                                    </div>
+
+                                    <a
+                                        href="https://anhpham113.github.io/Project-01/"
+                                        class="exploration-thumb__link"
+                                        target="_blank"
+                                    >
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="12"
+                                            height="12"
+                                            viewBox="0 0 12 12"
+                                            fill="none"
+                                            class="exploration-thumb__icon"
+                                        >
+                                            <path
+                                                d="M1 11L11 1M11 1H1M11 1V11"
+                                                stroke="currentcolor"
+                                                stroke-width="2"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                            />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- thumb-3 -->
+                            <div class="exploration-thumb">
+                                <img
+                                    src="./assets/image/homepage/explored-image-10.png"
+                                    alt="explored-image"
+                                    class="exploration-image"
+                                />
+                                <div class="exploration-thumb__info">
+                                    <div class="exploration-thumb__tags">
+                                        <span class="exploration-tag label-2">
+                                            Code Only
+                                        </span>
+                                        <span class="exploration-tag label-2">
+                                            grid system (12-columns)
+                                        </span>
+                                    </div>
+
+                                    <a
+                                        href="https://anhpham113.github.io/Grid-System-Project/"
+                                        class="exploration-thumb__link"
+                                        target="_blank"
+                                    >
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="12"
+                                            height="12"
+                                            viewBox="0 0 12 12"
+                                            fill="none"
+                                            class="exploration-thumb__icon"
+                                        >
+                                            <path
+                                                d="M1 11L11 1M11 1H1M11 1V11"
+                                                stroke="currentcolor"
+                                                stroke-width="2"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                            />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- thumb-4 -->
+                            <div class="exploration-thumb">
+                                <img
+                                    src="./assets/image/homepage/explored-image-11.png"
+                                    alt="explored-image"
+                                    class="exploration-image"
+                                />
+                                <div class="exploration-thumb__info">
+                                    <div class="exploration-thumb__tags">
+                                        <span class="exploration-tag label-2">
+                                            Design & Code
+                                        </span>
+                                        <span class="exploration-tag label-2">
+                                            responsive
+                                        </span>
+                                        <span class="exploration-tag label-2">
+                                            portfolio
+                                        </span>
+                                    </div>
+
+                                    <a
+                                        href="https://anhpham113.github.io/Portfolio/"
+                                        class="exploration-thumb__link"
+                                        target="_blank"
+                                    >
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="12"
+                                            height="12"
+                                            viewBox="0 0 12 12"
+                                            fill="none"
+                                            class="exploration-thumb__icon"
+                                        >
+                                            <path
+                                                d="M1 11L11 1M11 1H1M11 1V11"
+                                                stroke="currentcolor"
+                                                stroke-width="2"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                            />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--tablet-mobile-only-row-3-->
+                    <div class="exploration-row tablet-mobile-only">
+                        <span class="label label-2">micro-animation</span>
+                        <div class="exploration-media">
+                            <!-- thumb-1 -->
+                            <div class="exploration-thumb">
+                                <img
+                                    src="./assets/image/homepage/explored-image-12.gif"
+                                    alt="explored-image"
+                                    class="exploration-image"
+                                />
+                                <div class="exploration-thumb__tags">
+                                    <span class="exploration-tag label-2">
+                                        after effects
+                                    </span>
+                                    <span class="exploration-tag label-2">
+                                        micro-animation
+                                    </span>
+                                </div>
+                            </div>
+                            <!-- thumb-2 -->
+                            <div class="exploration-thumb">
+                                <img
+                                    src="./assets/image/homepage/explored-image-13.gif"
+                                    alt="explored-image"
+                                    class="exploration-image"
+                                />
+                                <div class="exploration-thumb__tags">
+                                    <span class="exploration-tag label-2">
+                                        after effects
+                                    </span>
+                                    <span class="exploration-tag label-2">
+                                        micro-animation
+                                    </span>
+                                </div>
+                            </div>
+                            <!-- thumb-3 -->
+                            <div class="exploration-thumb">
+                                <img
+                                    src="./assets/image/homepage/explored-image-14.gif"
+                                    alt="explored-image"
+                                    class="exploration-image"
+                                />
+                                <div class="exploration-thumb__tags">
+                                    <span class="exploration-tag label-2">
+                                        after effects
+                                    </span>
+                                    <span class="exploration-tag label-2">
+                                        micro-animation
+                                    </span>
+                                </div>
+                            </div>
+                            <!-- thumb-4 -->
+                            <div class="exploration-thumb">
+                                <img
+                                    src="./assets/image/homepage/explored-image-15.gif"
+                                    alt="explored-image"
+                                    class="exploration-image"
+                                />
+                                <div class="exploration-thumb__tags">
+                                    <span class="exploration-tag label-2">
+                                        after effects
+                                    </span>
+                                    <span class="exploration-tag label-2">
+                                        micro-animation
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--tablet-mobile-only-row-4-->
+                    <div class="exploration-row tablet-mobile-only">
                         <span class="label label-2">Graphic Work</span>
                         <div class="exploration-media">
                             <!-- thumb-1 -->

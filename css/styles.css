@@ -176,6 +176,7 @@ a {
     line-height: 1;
     letter-spacing: -0.03em;
     text-transform: uppercase;
+    text-align: center;
 
     transition: background-color 0.3s, color 0.3s;
 }
@@ -294,6 +295,12 @@ ol.nav-bar__list .nav-bar__item.active::before {
     padding-top: var(--section-padding-sm);
 }
 
+.hero__inner {
+    display: flex;
+    flex-direction: column;
+    gap: 36px   ;
+}
+
 .hero__content {
     margin-left: auto;
     max-width: 500px;
@@ -301,10 +308,6 @@ ol.nav-bar__list .nav-bar__item.active::before {
 
 .hero__desc {
     margin: 16px 0px;
-}
-
-.hero-media {
-    margin-top: 36px;
 }
 
 /* project list */
@@ -315,7 +318,8 @@ ol.nav-bar__list .nav-bar__item.active::before {
 
 .project {
     display: flex;
-    column-gap: 24px;
+    padding: 40px;
+    gap: 24px;
     border-radius: 12px;
     background-color: var(--neutral-2);
 }
@@ -326,7 +330,6 @@ ol.nav-bar__list .nav-bar__item.active::before {
 
 .project-info,
 .project-media {
-    padding: 40px;
     flex: 1;
 }
 
@@ -468,7 +471,7 @@ ol.nav-bar__list .nav-bar__item.active::before {
 
 .exploration-thumb__tags {
     display: flex;
-    column-gap: 8px;
+    gap: 8px;
     position: absolute;
     bottom: -40px;
     left: 20px;
@@ -520,7 +523,7 @@ ol.nav-bar__list .nav-bar__item.active::before {
 /* footer */
 
 .footer {
-    padding: var(--section-padding-sm) 0 var(--section-padding-sm);
+    padding: 40px 0;
     background-color: var(--neutral-2);
 }
 

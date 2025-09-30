@@ -1,0 +1,237 @@
+/* large-desktop */
+@media screen and (min-width: 1300px) {
+}
+
+/* desktop */
+@media screen and (min-width: 1000px) and (max-width: 1299.98px) {
+    .about-column {
+        width: 45%;
+    }
+}
+
+/* desktop + large-desktop */
+@media screen and (min-width: 1000px) {
+    .tablet-mobile-only,
+    .mobile-only {
+        display: none;
+    }
+}
+
+/* tablet + mobile */
+@media screen and (max-width: 999.98px) {
+    .desktop-only {
+        display: none;
+    }
+
+    .project {
+        flex-direction: column;
+    }
+
+    .project-btn {
+        margin-top: 0px;
+    }
+
+    .about-row {
+        flex-direction: column;
+    }
+
+    .about-row-reverse {
+        flex-direction: row;
+    }
+
+    .exploration-row {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .about-column__avatar {
+        margin-top: -32px;
+    }
+
+    .exploration-media {
+        gap: 20px;
+    }
+
+    .exploration-row + .exploration-row {
+        margin-top: 0px;
+    }
+
+    .exploration-row.tablet-mobile-only + .exploration-row.tablet-mobile-only {
+        margin-top: 64px;
+    }
+
+    .exploration-thumb {
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 16px;
+        border-radius: 12px;
+        background-color: var(--neutral-2);
+    }
+
+    .exploration-thumb::after {
+        display: none;
+    }
+
+    .exploration-thumb__info {
+        display: flex;
+        gap: 8px;
+        align-items: center;
+    }
+
+    .exploration-thumb__tags {
+        position: static;
+        flex: 1;
+        flex-wrap: wrap;
+    }
+
+    .exploration-tag {
+        background: var(--neutral-1);
+        color: var(--neutral-5);
+    }
+
+    .exploration-thumb__link {
+        width: 24px;
+        height: 24px;
+        position: static;
+        background: var(--accent-1);
+    }
+
+    .exploration-thumb__icon {
+        color: var(--neutral-1);
+    }
+
+    .tablet-mobile-only.exploration-row .exploration-thumb:nth-of-type(6) {
+        grid-row: span 2;
+    }
+}
+
+/* tablet */
+@media screen and (min-width: 576px) and (max-width: 999.98px) {
+    .mobile-only {
+        display: none;
+    }
+
+    :root {
+        /* container-margin */
+        --container-margin-lg: 250px;
+        --container-margin-sm: 64px;
+
+        /* section-vertical-padding */
+        --section-padding-lg: 80px;
+        --section-padding-sm: 32px;
+    }
+
+    .project + .project {
+        margin-top: 64px;
+    }
+
+    .about-column {
+        margin-top: 32px;
+        width: 72%;
+    }
+
+    .about-row + .about-row,
+    .about-row-reverse {
+        margin-top: 64px;
+    }
+
+    .about-column__desc + .about-column__desc {
+        margin-top: 20px;
+    }
+}
+
+/* mobile */
+@media screen and (max-width: 575.98px) {
+    .desktop-tablet-only {
+        display: none;
+    }
+
+    :root {
+        /* container-margin */
+        --container-margin-lg: 250px;
+        --container-margin-sm: 32px;
+
+        /* section-vertical-padding */
+        --section-padding-lg: 60px;
+        --section-padding-sm: 16px;
+    }
+
+    .heading-1 {
+        font-size: 31vw;
+        text-align: center;
+    }
+
+    .heading-3 {
+        font-size: 5.2rem;
+    }
+
+    .heading-6 {
+        font-size: 4rem;
+    }
+
+    .hero {
+        padding: var(--section-padding-sm) 0 var(--section-padding-lg);
+    }
+
+    .nav-bar__list {
+        margin-left: auto;
+        width: fit-content;
+    }
+
+    .nav-bar__link {
+        padding: 16px 8px;
+    }
+
+    .hero__inner {
+        flex-direction: column-reverse;
+        gap: 64px;
+    }
+
+    .project-list {
+        padding: var(--section-padding-sm) 0 var(--section-padding-sm);
+    }
+
+    .project {
+        padding: 20px;
+    }
+
+    .project + .project {
+        margin-top: 32px;
+    }
+
+    .project-img:last-child {
+        margin-bottom: 0px;
+    }
+
+    .about-column {
+        width: 100%;
+    }
+
+    .about-row {
+        gap: 24px;
+    }
+
+    .about-row + .about-row {
+        margin-top: 64px;
+    }
+
+    .about-column__desc + .about-column__desc {
+        margin-top: 20px;
+    }
+
+    .exploration-media {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    .footer__top-row {
+        align-items: start;
+        margin-bottom: 64px;
+    }
+
+    .footer__highlight-info {
+        width: 100%;
+    }
+}
