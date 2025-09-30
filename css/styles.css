@@ -631,7 +631,7 @@ ol.nav-bar__list .nav-bar__item.active::before {
 
 .subpage-hero__thumb {
     width: 100%;
-    object-fit: cover;
+    height: auto;
 }
 
 /* workoverview */
