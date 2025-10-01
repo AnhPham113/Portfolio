@@ -298,7 +298,7 @@ ol.nav-bar__list .nav-bar__item.active::before {
 .hero__inner {
     display: flex;
     flex-direction: column;
-    gap: 36px   ;
+    gap: 36px;
 }
 
 .hero__content {
@@ -619,6 +619,7 @@ ol.nav-bar__list .nav-bar__item.active::before {
 
 .subpage-hero__heading {
     text-align: center;
+    text-wrap: balance;
 }
 
 .subpage-hero__desc {
@@ -809,6 +810,10 @@ ol.nav-bar__list .nav-bar__item.active::before {
     gap: 44px;
 }
 
+.step-content__media-no-padding {
+    margin: 0 -64px -64px;
+}
+
 .step-content__img--2columns {
     grid-column: span 2;
 }
@@ -833,7 +838,7 @@ ol.nav-bar__list .nav-bar__item.active::before {
 
 .step-content__video {
     flex: 1;
-    min-width: 480px;
+    min-width: 360px;
     cursor: pointer;
 }
 
@@ -850,7 +855,7 @@ ol.nav-bar__list .nav-bar__item.active::before {
 
 .step-learning {
     flex-direction: row;
-    gap: 12px;
+    gap: 32px;
     justify-content: space-between;
 }
 
