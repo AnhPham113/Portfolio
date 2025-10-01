@@ -193,6 +193,18 @@
     .exploration-media {
         max-width: none;
     }
+
+    .workoverview-inner {
+        flex-direction: column;
+    }
+
+    .workoverview__right-column {
+        padding-top: 0px;
+    }
+
+    .step-content__video {
+        min-width: 0px;
+    }
 }
 
 /* tablet */
@@ -237,18 +249,10 @@
         margin-top: 44px;
     }
 
-    .workoverview-inner {
-        flex-direction: column;
-    }
-
     .workoverview__left-column,
     .workoverview__right-column,
     .highlight-info__desc.workoverview-highlight {
         max-width: none;
-    }
-
-    .workoverview__right-column {
-        padding-top: 0px;
     }
 
     .step {
@@ -273,7 +277,7 @@
 
     :root {
         /* container-margin */
-        --container-margin-lg: 250px;
+        --container-margin-lg: 32px;
         --container-margin-sm: 32px;
 
         /* section-vertical-padding */
@@ -286,8 +290,20 @@
         text-align: center;
     }
 
+    .heading-2 {
+        font-size: 6rem;
+    }
+
     .heading-3 {
         font-size: 5.2rem;
+    }
+
+    .heading-6 {
+        font-size: 3.6rem;
+    }
+
+    .body-2 {
+        font-size: 1.5rem;
     }
 
     .hero {
@@ -352,5 +368,71 @@
 
     .footer__highlight-info {
         width: 100%;
+    }
+
+    .subpage-hero__media {
+        margin-top: 44px;
+        border-radius: 4px;
+    }
+
+    .workoverview-inner {
+        gap: 44px;
+    }
+
+    .workoverview-btn {
+        max-width: none;
+    }
+
+    .step,
+    .step-row,
+    .step-content {
+        gap: 32px;
+    }
+
+    .step-block {
+        min-height: 150px;
+    }
+
+    .step-content,
+    .step-learning {
+        padding: 28px;
+    }
+
+    .step-content__media {
+        gap: 20px;
+    }
+
+    .step-content__thumb,
+    .step-content__video {
+        border-radius: 4px;
+    }
+
+    .step-showcase {
+        grid-template-columns: 1fr;
+        gap: 32px;
+    }
+
+    .step-showcase--2columns {
+        grid-column: auto;
+    }
+
+    .step-content__media-no-padding {
+        margin: 0 -28px -28px;
+    }
+
+    .step-content__img--half-column {
+        width: 100%;
+    }
+}
+
+/* override hover for mobile/tablet touch */
+@media (hover: none) and (pointer: coarse) {
+    .btn:hover {
+        background-color: var(--neutral-1);
+        color: var(--accent-1);
+    }
+    .btn:active {
+        background-color: var(--accent-1);
+        color: var(--neutral-1);
     }
 }
